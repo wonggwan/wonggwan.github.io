@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16bb000e-d7a9-48b0-8c7f-04347adfca61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dns.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/dns.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/545.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../augseg" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="SvnConfiguration">
@@ -40,6 +40,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="746" y="287" width="424" height="492" key="FileChooserDialogImpl" timestamp="1601218367088">
+      <screen x="0" y="27" width="1920" height="1015" />
+    </state>
+    <state x="746" y="287" width="424" height="492" key="FileChooserDialogImpl/0.27.1920.1015@0.27.1920.1015" timestamp="1601218367088" />
     <state x="858" y="139" width="1016" height="738" key="SettingsEditor" timestamp="1601140807489">
       <screen x="0" y="27" width="1920" height="1015" />
     </state>

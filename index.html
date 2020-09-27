@@ -332,7 +332,6 @@
             </td>
           </tr>
 
-
           <tr onmouseout="nerfw_stop()" onmouseover="nerfw_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -360,6 +359,36 @@
               Summer 2017
               <br>
               <p>Implemented operation algorithm of unmanned aerial vehicle on the basis of stm32 and MPU6050. Employed the fourth-order Runge-Kutta to process IMU and to calculate accelerator data for performance improvement.</p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="nerfw_stop()" onmouseover="nerfw_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/face.gif' width="190">
+              </div>
+              <script type="text/javascript">
+                function nerfw_start() {
+                  document.getElementById('nerfw_image').style.opacity = "1";
+                }
+
+                function nerfw_stop() {
+                  document.getElementById('nerfw_image').style.opacity = "0";
+                }
+                nerfw_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+             <papertitle>Face Detection and Recognition</papertitle>
+              <br>
+              <strong>Jun Wang</strong>
+              <br>
+              Summer 2017
+              <br>
+              <p>
+                Used OpenCV to implement face detection with C++. Based on the concept of eigenface and PCA, we trained a new face detection model using haar classifier from OpenCV as baseline and achieved high detection accuracy.
+              </p>
             </td>
           </tr>
 
