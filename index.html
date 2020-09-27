@@ -179,7 +179,7 @@
               Spring 2020
               <br>
               <p></p>
-              <p>We reconstructed camera poses using AprilTags. we used perspective-n-point (PnP) and perspective-3-point (P3P) method with coplanar assumption to render a virtual bird on a perspective plane. </p>
+              <p>In this project, we used perspective-n-point (PnP) based on coplanar assumption and perspective-3-point (P3P) method followed by Procrustes to render a virtual bird on a perspective plane as if it stands on the AprilTags. </p>
             </td>
           </tr>
 
@@ -230,14 +230,16 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Heatmap-Based Neural Network Keypoint Detection (UPenn CIS 580 Machine Perception)</papertitle>
+              <papertitle>6DoF Pose Estimation (UPenn CIS 580 Machine Perception)</papertitle>
               <br>
               <strong>Jun Wang</strong>
               <br>
               Spring 2020
               <br>
+              <p>
+                In this project, we were required to estimate keypoints of a oilcan using a heatmap-based neural network. Each 2D heatmap corresponds to one keypoint and is targeted to localize this particular keypoint within the given image. During training, we synthesized and identified the location of each keypoint on the 2D image and used a 2D Gaussian centered on this location on the corresponding heatmap. Then we may use the keypoints detected to localize 6DoF pose of the object by aligning the CAD model of the object and the translation between object and camera frame such that the projection of the CAD model aligns with the object in the image.
+              </p>
               <p></p>
-              <p>We approximated a Laplacian of Gaussian filter (LoG) by a Difference of Gaussians (DoG). </p>
             </td>
           </tr>
 
@@ -266,7 +268,7 @@
               Spring 2020
               <br>
               <p></p>
-              <p>We approximated a Laplacian of Gaussian filter (LoG) by a Difference of Gaussians (DoG). </p>
+              <p>We approximated a Laplacian of Gaussian filter (LoG) by a Difference of Gaussians (DoG) without knowing the size of the blobs to detect a priori. The LoG filter in 2D is a rotationally symmetric version of the 1D filter, which makes it a good blob detector(a blob is a dark patch on light background). </p>
             </td>
           </tr>
 
@@ -324,11 +326,9 @@
               <br>
               <a href="https://github.com/wonggwan/Multicycle-CPU">code</a>
               <p></p>
-              <p>In this project, we used Vivado to implement multicycle CPU based on Verilog HDL to do binary operation. We completed the whole CPU including acquiring instruction, parsing instruction, executing instruction, accessing memory and son on in one clock cycle.</p>
+              <p>In this project, we used Vivado to implement multicycle CPU based on Verilog HDL to do binary operation. We implemented the whole CPU including the following operations: acquiring instruction, parsing instruction, executing instruction, accessing memory and writing back result, each operation is executed in one clock cycle.</p>
             </td>
           </tr>
-
-
 
 
           <tr onmouseout="nerfw_stop()" onmouseover="nerfw_start()">
@@ -357,7 +357,7 @@
               <br>
               Summer 2017
               <br>
-              <p>Developed an unmanned aerial vehicle on the basis of stm32 and MPU6050. Employed the fourth-order Runge-Kutta to process IMU and to calculate accelerator data for performance improvement.</p>
+              <p>Implemented operation algorithm of unmanned aerial vehicle on the basis of stm32 and MPU6050. Employed the fourth-order Runge-Kutta to process IMU and to calculate accelerator data for performance improvement.</p>
             </td>
           </tr>
 
@@ -390,7 +390,7 @@
               <br>
               Summer 2016
               <br>
-              <p>Established a simulation model of unmanned car with FPGA, infrared sensor and ultrasonic sensor. Detect obstacles with ultrasonic sensor and compiled detection module using C++. Applied PID algorithm to control the motor speed of the car to improve its obstacle avoiding performance.</p>
+              <p>Established a simulation model of unmanned car with FPGA, infrared sensor and ultrasonic sensor. Detect and react to obstacles with ultrasonic sensor and implement detection module using C++. Applied PID algorithm to control the motor speed of the car to improve its obstacle avoiding performance.</p>
             </td>
           </tr>
 
@@ -418,7 +418,7 @@
               <br>
               Spring 2016
               <br>
-              <p>In this project, we modified Dijkstra's algorithm for the condition of multi-optimal routes in the network using C++. We also used R to analyze multiple stochastic networks including erdos-renyi model, barabasi model and proposed an evaluation system based on star schema to measure the time before reaching congestion in a network system</p>
+              <p>In this project, we modified Dijkstra's algorithm for the condition of multi-optimal routes in the network using C++ by averaging the probability to choose among each optimal routes. We also used R to analyze multiple stochastic networks including erdos-renyi model, barabasi model and proposed an evaluation system based on star schema to measure the time before reaching congestion in a network system</p>
             </td>
           </tr>
 
