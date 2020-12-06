@@ -21,7 +21,7 @@
               </p>
               <p>
                 I am a graduate student in Robotics at <a href="https://www.grasp.upenn.edu">GRASP Lab, University of Pennsylvania</a>.
-                I'm currently working on Robust Semantic Segmantation under the supervision of Prof.<a href="https://www.georgejpappas.org/">George Pappas</a> and <a href="https://www.seas.upenn.edu/~hassani/">Hamed Hassani</a>.
+                I'm currently working on Robust Semantic Segmantation under the supervision of Prof. <a href="https://www.georgejpappas.org/">George Pappas</a> and <a href="https://www.seas.upenn.edu/~hassani/">Hamed Hassani</a>.
               </p>
               <p>
                 Previously, I graduated with my Bachelor's degree in Software Engineering at <a href="http://www.sysu.edu.cn/en/index.htm">Sun Yat-Sen University</a> in 2019. I was an exchange student at <a href="https://www.skku.edu/eng/index.do">SungKyunKwan University</a> in 2018.
@@ -46,7 +46,7 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
-              <p>My research interest lies in computer vision, deep learning and optimization.</p>
+              <p>My research interest lies in computer vision, deep learning, robustness and optimization.</p>
             </td>
           </tr>
         </tbody></table>
@@ -128,7 +128,38 @@
 
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          
+
+
+        <tr onmouseout="nerfw_stop()" onmouseover="nerfw_start()">
+            <td style="padding:10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/matting.gif' width="190">
+              </div>
+              <script type="text/javascript">
+                function nerfw_start() {
+                  document.getElementById('nerfw_image').style.opacity = "1";
+                }
+
+                function nerfw_stop() {
+                  document.getElementById('nerfw_image').style.opacity = "0";
+                }
+                nerfw_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Convolutional Gated Recurrent Network for Video Matting (UPenn ESE 546 Principle of Deep Learning)</papertitle>
+              <br>
+              <strong>Jun Wang</strong>,
+              <a href="https://ieeexplore.ieee.org/author/37086601339">Shunqi Liu</a>
+              <br>
+              Fall 2020
+              <br>
+              <p></p>
+              <p>Conventional matting methods have poor performance when an image has similar foreground and background colors or complicated textures. Besides, current video matting algorithm does not make good use of the inter-relation (temporal logic) among frames in the video. Addressing both issues, we proposed a video matting method using Encoder-Decoder based Convolutional Neural Network (CNN) and Gated Recurrent Unit(GRU) to capture the temporal information among frames in a video.</p>
+            </td>
+          </tr>
+
+
         <tr onmouseout="nerfw_stop()" onmouseover="nerfw_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
