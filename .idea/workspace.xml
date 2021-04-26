@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16bb000e-d7a9-48b0-8c7f-04347adfca61" name="Default Changelist" comment="Update">
+      <change afterPath="$PROJECT_DIR$/images/wustllogo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +74,7 @@
       <workItem from="1609808816868" duration="25000" />
       <workItem from="1610507652031" duration="8000" />
       <workItem from="1612487313609" duration="16000" />
+      <workItem from="1619403035794" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1607224833164</created>
@@ -157,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609808828879</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="CV">
+      <created>1619403049751</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1619403049751</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +188,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="CV" />
+    <option name="LAST_COMMIT_MESSAGE" value="CV" />
   </component>
   <component name="WindowStateProjectService">
     <state x="995" y="359" width="424" height="492" key="FileChooserDialogImpl" timestamp="1608685777989">
