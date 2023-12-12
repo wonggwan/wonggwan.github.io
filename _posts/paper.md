@@ -1,0 +1,1 @@
+Our paper "Safeguarded Progress in Reinforcement Learning: Safe Bayesian Exploration for Control Policy Synthesis" has been accepted for the SRRAI Special Track at the Conference on Artificial Intelligence (AAAI-24)!
