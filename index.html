@@ -49,26 +49,15 @@
         </tbody></table>
         
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="nerfw_stop()" onmouseover="nerfw_start()">
+          <tr>
             <td style="padding:20px;width:29%;vertical-align:middle">
               <div class="one">
-                <img src='images/pnp_piml.png' width="190">
+                <img src='images/pnp_piml.png' width="190" style="border-radius:6px;">
               </div>
-              <script type="text/javascript">
-                function nerfw_start() {
-                  document.getElementById('nerfw_image').style.opacity = "1";
-                }
-
-                function nerfw_stop() {
-                  document.getElementById('nerfw_image').style.opacity = "0";
-                }
-                nerfw_stop()
-              </script>
             </td>
             <td style="padding:20px;width:71%;vertical-align:top">
               <papertitle>Plug-and-Play Physics-informed Learning using Uncertainty Quantified Port-Hamiltonian Models</papertitle>
-              <br>
-              <br>
+              <br><br>
               <a href="https://tankevin998.github.io/">Kaiyuan Tan</a>,
               <a href="https://scholar.google.com/citations?user=FcmYSpsAAAAJ&hl=en">Peilun Li</a>, 
               <strong>Jun Wang</strong>,
@@ -80,27 +69,16 @@
             </td>
           </tr>
 
-          <tr onmouseout="cat4d_stop()" onmouseover="cat4d_start()">
+
+          <tr>
             <td style="padding:20px;width:29%;vertical-align:middle">
               <div class="one">
-                <div class="two" id="cat4d_image">
-                  <video width="100%" muted autoplay loop>
+                <div class="two">
+                  <video width="100%" style="max-width:190px; border-radius:6px;" muted autoplay loop playsinline>
                     <source src="images/satlas.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
                   </video>
-                  <img src='images/satlas.png' width="190">
                 </div>
               </div>
-              <script type="text/javascript">
-                function cat4d_start() {
-                  document.getElementById('cat4d_image').style.opacity = "1";
-                }
-
-                function cat4d_stop() {
-                  document.getElementById('cat4d_image').style.opacity = "0";
-                }
-                cat4d_stop();
-              </script>
             </td>
             <td style="padding:20px;width:71%;vertical-align:top">
               <papertitle>Probabilistically Correct Language-based Multi-Robot Planning using Conformal Prediction</papertitle>
@@ -115,6 +93,7 @@
               <a href="https://arxiv.org/pdf/2402.15368">arXiv</a>
             </td>
           </tr>
+
 
 
           
