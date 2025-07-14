@@ -54,11 +54,19 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
           <tr>
-            <td style="padding:20px;width:29%;vertical-align:middle">
-              <div class="one">
-                  <video width="190" style="border-radius:6px;" muted autoplay loop playsinline>
-                    <source src="images/robot_dog_1.mp4" type="video/mp4">
-                  </video>
+            <td style="padding:20px;width:190px;vertical-align:middle">
+              <div class="one" style="height:100%;">
+                <video
+                  muted autoplay loop playsinline
+                  style="
+                    width: 190px;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 6px;
+                    display: block;
+                  ">
+                  <source src="images/robot_dog_1.mp4" type="video/mp4">
+                </video>
               </div>
             </td>
             <td style="padding:20px;width:71%;vertical-align:top">
@@ -98,6 +106,8 @@
               <strong><em>ICRA</em>, 2025</strong>
               <br>
               <a href="https://arxiv.org/abs/2504.17966">arXiv</a>
+              <p></p>
+              <p>A plug-and-play framework for reliable trajectory prediction that switches between data-driven and physics-informed models using conformal prediction.</p>
             </td>
           </tr>
 
